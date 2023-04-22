@@ -2,17 +2,7 @@
 
 This is a starter template for an Express.js & Node.js server-side application with a Postgres database in Docker. The template uses best coding practices with ESLint and Prettier, it also uses nodemon for better development environment and is written in TypeScript.
 
-## Table of Contents
-
-- [Getting-Started]
-- [Prerequisites]
-- [Installing]
-- [Usage]
-- [Stack-Used]
-- [Author]
-- [License]
-
-## Getting-Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -101,7 +91,7 @@ To stop the server, press `CTRL-C`.
 
 `npm run build`
 
-### Stack-Used
+### Stack Used
 
 - [Express.js](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
 - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system
