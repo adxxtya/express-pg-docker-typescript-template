@@ -1,0 +1,6 @@
+{
+  "ignore": [".git", "node_modules", "build"],
+  "watch": ["./src"],
+  "exec": "ts-node -r tsconfig-paths/register ./src",
+  "ext": "ts,json"
+}
