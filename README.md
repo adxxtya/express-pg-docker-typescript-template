@@ -6,6 +6,18 @@ This is a starter template for an Express.js & Node.js server-side application w
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Stack Used
+
+- [Express.js](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
+- [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system
+- [Docker](https://www.docker.com/) - Platform for building, shipping, and running distributed applications
+- [Docker Compose](https://docs.docker.com/compose/) - Tool for defining and running multi-container Docker applications
+- [Node.js](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript that compiles to plain JavaScript
+- [ts-node](https://github.com/TypeStrong/ts-node) - TypeScript execution and REPL for node.js
+- [ESLint](https://eslint.org/) - Pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript
+- [Prettier](https://prettier.io/) - Opinionated code formatter
+
 ### Prerequisites
 
 You need to have the following software installed on your machine:
@@ -90,18 +102,6 @@ If you have finished testing the application and it works perfectly in your loca
     This will stop and remove the Docker container.
 
 Note: Make sure to update the environment variables in the `.env` file according to your Docker setup.
-
-### Stack Used
-
-- [Express.js](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
-- [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system
-- [Docker](https://www.docker.com/) - Platform for building, shipping, and running distributed applications
-- [Docker Compose](https://docs.docker.com/compose/) - Tool for defining and running multi-container Docker applications
-- [Node.js](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
-- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript that compiles to plain JavaScript
-- [ts-node](https://github.com/TypeStrong/ts-node) - TypeScript execution and REPL for node.js
-- [ESLint](https://eslint.org/) - Pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript
-- [Prettier](https://prettier.io/) - Opinionated code formatter
 
 ### Author
 
