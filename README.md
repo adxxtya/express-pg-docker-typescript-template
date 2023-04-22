@@ -27,29 +27,6 @@ This command will clone this git repo in your current working directory.
 
   `npm install`
 
-If you have finished testing the application and it works perfectly in your local environment, you can move on to setting up Docker. Follow the below steps to set up Docker and Docker Compose:
-
-1.  Install Docker and Docker Compose on your machine if you haven't already. Also, if you are using Windows or Mac, you wouldn't need to install docker-compose externally, it will be packaged along with the Docker Desktop Application.
-2.  Now, open the project directory in the terminal and run the following command to build the Docker image:
-
-- `docker build -t your_image_name .`
-
-  This will build a Docker image with the name `your_image_name` in the current directory specified with the `.` in the end.
-
-- Once the Docker image is built, you can run the Docker container using the following command:
-- `docker compose up`
-
-  This will start the Docker container with the PostgreSQL database and the Node.js server.
-
-- You can access the application by navigating to `http://localhost:5000` in your web browser.
-- To stop the Docker container, use the following command:
-
-1.  `docker compose down`
-
-    This will stop and remove the Docker container.
-
-Note: Make sure to update the environment variables in the `.env` file according to your Docker setup.
-
 ### Environment
 
 Create an .env file in the root directory of the project and copy paste the following code in the env file, make sure to fill the details as per your configuration
@@ -90,6 +67,29 @@ To stop the server, press `CTRL-C`.
 - To build the TypeScript files to JavaScript, execute the following command:
 
 `npm run build`
+
+If you have finished testing the application and it works perfectly in your local environment, you can move on to setting up Docker. Follow the below steps to set up Docker and Docker Compose:
+
+1.  Install Docker and Docker Compose on your machine if you haven't already. Also, if you are using Windows or Mac, you wouldn't need to install docker-compose externally, it will be packaged along with the Docker Desktop Application.
+2.  Now, open the project directory in the terminal and run the following command to build the Docker image:
+
+- `docker build -t your_image_name .`
+
+  This will build a Docker image with the name `your_image_name` in the current directory specified with the `.` in the end.
+
+- Once the Docker image is built, you can run the Docker container using the following command:
+- `docker compose up`
+
+  This will start the Docker container with the PostgreSQL database and the Node.js server.
+
+- You can access the application by navigating to `http://localhost:5000` in your web browser.
+- To stop the Docker container, use the following command:
+
+1.  `docker compose down`
+
+    This will stop and remove the Docker container.
+
+Note: Make sure to update the environment variables in the `.env` file according to your Docker setup.
 
 ### Stack Used
 
